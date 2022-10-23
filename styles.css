@@ -2,3 +2,11 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
