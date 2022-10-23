@@ -50,3 +50,9 @@ p {
     width: 100%;
     max-width: 500px;
 }
+
+#top-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
