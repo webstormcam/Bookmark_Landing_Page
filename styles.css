@@ -96,7 +96,8 @@ p {
 .big-blue-object {
     min-width: 577px;
     max-width: 100%;
-    height: 203px;
+    min-height: 80%;
+    height: auto;
     background-color: #5267DF;
     border-radius: 7rem;
     position: absolute;
