@@ -184,3 +184,12 @@ p {
 #hamburger {
     cursor: pointer;
 }
+
+#mobile-social-links {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
