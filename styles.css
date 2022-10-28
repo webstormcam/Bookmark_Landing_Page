@@ -144,7 +144,7 @@ p {
     position: relative;
     top: 6.5rem;
     text-align: center;
-    width: 309px;
+
 }
 
 .mobile-links {
@@ -154,20 +154,29 @@ p {
     color: #ffffff;
     letter-spacing: 0.2rem;
     width: 309px;
+
 }
 
 .mobile-holder {
 
     border-top: 1px solid grey;
     padding: 1.5rem 0rem;
+    width: 309px;
 }
 
 #mobile-ul {
     width: 309px;
+    margin-bottom: 2rem;
 }
 
 .mobile-holder:last-child {
     border-bottom: 1px solid grey;
+}
+
+.mobile-login {
+    padding: 1.2rem 2rem;
+    border: 2px solid #ffffff;
+    border-radius: 0.5rem;
 }
 
 
