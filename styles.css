@@ -205,7 +205,8 @@ p {
     }
 
     #large-selection {
-        display: block;
+        display: flex;
+        width: 300px;
     }
 
     #hamburger {
@@ -230,14 +231,19 @@ p {
     }
 
     #top-buttons {
-        justify-content: flex-start;
-        width: 500px;
+        justify-content: space-between;
+        width: 320px;
+
+    }
+
+    #large-ul {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-right: 2rem;
     }
 
     #top-words {
         text-align: left;
     }
-
-
-
 }
