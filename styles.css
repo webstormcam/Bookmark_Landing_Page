@@ -14,7 +14,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
+    order: 1;
 
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 #header-logo {
@@ -245,5 +252,41 @@ p {
 
     #top-words {
         text-align: left;
+    }
+
+    .big-blue-object {
+        top: 4rem;
+    }
+}
+
+
+@media screen and(min-width:1024px) {}
+
+
+@media screen and (min-width:1440px) {
+    header {
+        max-width: 1110px;
+    }
+
+    #hero-image {
+        max-width: none;
+        width: 579px;
+        position: relative;
+        left: 5rem;
+    }
+
+    #wrapper {
+        overflow: hidden;
+    }
+
+    #top-content {
+        max-width: 1110px;
+        overflow: visible;
+    }
+
+    .big-blue-object {
+        width: 1000px;
+        top: 7rem;
+        left: 13rem;
     }
 }
