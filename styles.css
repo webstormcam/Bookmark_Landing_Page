@@ -211,6 +211,8 @@ p {
         overflow: auto !important;
     }
 
+
+
     #large-selection {
         display: flex;
         width: 300px;
@@ -222,6 +224,7 @@ p {
 
     #top-content {
         flex-direction: row;
+
     }
 
     #top-words-buttons {
@@ -268,6 +271,15 @@ p {
         max-width: 1110px;
     }
 
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
     #hero-image {
         max-width: none;
         width: 579px;
@@ -275,8 +287,16 @@ p {
         left: 5rem;
     }
 
+    #top-content {
+        margin-top: 5rem;
+    }
+
     #wrapper {
         overflow: hidden;
+    }
+
+    header {
+        margin-top: 1rem;
     }
 
     #top-content {
