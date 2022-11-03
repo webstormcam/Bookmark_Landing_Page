@@ -287,13 +287,24 @@ p {
 }
 
 
-@media screen and(min-width:1024px) {}
-
-
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1110px) {
     header {
         max-width: 1110px;
     }
+
+    #top-content {
+        overflow: visible;
+        max-width: 1110px;
+    }
+
+    #wrapper {
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+
 
     #large-selection {
         width: 400px;
@@ -322,9 +333,7 @@ p {
         padding: 0rem;
     }
 
-    #wrapper {
-        overflow: hidden;
-    }
+
 
     header {
         margin-top: 1rem;
@@ -333,7 +342,7 @@ p {
 
     #top-content {
         max-width: 1110px;
-        overflow: visible;
+
     }
 
     .big-blue-object {
