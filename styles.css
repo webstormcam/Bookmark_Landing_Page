@@ -282,6 +282,7 @@ p {
     #large-selection {
         display: flex;
         align-items: center;
+        width: 400px;
     }
 }
 
