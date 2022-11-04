@@ -237,13 +237,19 @@ p {
 
 .clickable-options p {
     color: #242A45;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding: 1rem 0rem;
     border-top: 1px solid red;
+}
+
+.clickable-options p:last-child {
+    border-bottom: 1px solid red;
 }
 
 .clickable-options a {
     border-bottom: 1px solid green;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: #242A45;
 }
 
 @media screen and (min-width:768px) {
