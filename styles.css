@@ -226,6 +226,26 @@ p {
     max-width: 540px;
 }
 
+.clickable-options {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.clickable-options p {
+    color: #242A45;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid red;
+}
+
+.clickable-options a {
+    border-bottom: 1px solid green;
+}
+
 @media screen and (min-width:768px) {
 
     body {
