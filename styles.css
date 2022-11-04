@@ -14,8 +14,23 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
-    order: 1;
+    order: 10;
 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    padding: 0rem 2rem;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
 }
 
 #wrapper {
@@ -41,6 +56,7 @@ header {
     padding: 0rem 2rem;
     overflow: hidden;
     padding-bottom: 2rem;
+    order: 9;
 }
 
 
@@ -203,6 +219,11 @@ p {
 
 #large-selection {
     display: none;
+}
+
+.overview {
+    text-align: center;
+    max-width: 540px;
 }
 
 @media screen and (min-width:768px) {
