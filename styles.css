@@ -223,7 +223,7 @@ p {
 
 .overview {
     text-align: center;
-    max-width: 540px;
+
 }
 
 .clickable-options {
@@ -251,13 +251,31 @@ p {
 }
 
 .clickable-options div {
-    border-top: 2px solid grey;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
 
+}
+
+.clickable-options div p {
+    width: 50%;
+    border-bottom: 4px solid red;
 }
 
 .clickable-options div:last-child {
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
 }
+
+
+
+#features {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.overview p {}
 
 @media screen and (min-width:768px) {
 
@@ -344,12 +362,24 @@ p {
         border-top: none;
     }
 
+    #features {
+        align-items: center;
+    }
+
     .clickable-options {
         flex-direction: row;
         margin-bottom: 4rem;
         border-bottom: 1px solid grey;
-        min-width: 530px;
+        width: 95%;
         max-width: 730px;
+    }
+
+    .clickable-options div p {
+        width: 100%;
+    }
+
+    .clickable-options div:last-child {
+        border-bottom: none;
     }
 }
 
