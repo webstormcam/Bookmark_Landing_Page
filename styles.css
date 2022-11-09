@@ -238,18 +238,25 @@ p {
 .clickable-options p {
     color: #242A45;
     padding: 1rem 0rem;
-    border-top: 1px solid red;
+
 }
 
-.clickable-options p:last-child {
-    border-bottom: 1px solid red;
-}
+
 
 .clickable-options a {
-    border-bottom: 1px solid green;
+
     text-decoration: none;
     margin-bottom: 1rem;
     color: #242A45;
+}
+
+.clickable-options div {
+    border-top: 2px solid grey;
+
+}
+
+.clickable-options div:last-child {
+    border-bottom: 2px solid grey;
 }
 
 @media screen and (min-width:768px) {
@@ -330,6 +337,19 @@ p {
         display: flex;
         align-items: center;
         width: 400px;
+    }
+
+    .clickable-options div {
+        width: 33%;
+        border-top: none;
+    }
+
+    .clickable-options {
+        flex-direction: row;
+        margin-bottom: 4rem;
+        border-bottom: 1px solid grey;
+        min-width: 530px;
+        max-width: 730px;
     }
 }
 
