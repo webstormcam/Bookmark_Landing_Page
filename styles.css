@@ -260,7 +260,7 @@ p {
 
 .clickable-options div p {
     width: 50%;
-    border-bottom: 4px solid red;
+
 }
 
 .clickable-options div:last-child {
@@ -278,6 +278,10 @@ p {
 
 .overview p {
     max-width: 530px;
+}
+
+#bookmark {
+    border-bottom: 3px solid red;
 }
 
 @media screen and (min-width:768px) {
