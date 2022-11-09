@@ -24,6 +24,7 @@ main {
     align-items: center;
     margin-top: 7rem;
     padding: 0rem 2rem;
+    width: 100%;
 }
 
 
@@ -229,7 +230,7 @@ p {
 .clickable-options {
     display: flex;
     flex-direction: column;
-
+    width: 100%;
     justify-content: space-evenly;
     text-align: center;
     margin-top: 4rem;
@@ -275,7 +276,9 @@ p {
 
 }
 
-.overview p {}
+.overview p {
+    max-width: 530px;
+}
 
 @media screen and (min-width:768px) {
 
