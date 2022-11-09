@@ -348,6 +348,10 @@ p {
         letter-spacing: 1.5px;
     }
 
+    #large-ul a:hover {
+        color: #FA5959;
+    }
+
     #large-login {
         font-size: 13px;
         background-color: #FA5959;
@@ -356,6 +360,13 @@ p {
         text-decoration: none;
         color: #ffffff;
         letter-spacing: 1.5px;
+        border: 1px solid #ffffff;
+    }
+
+    #large-login:hover {
+        color: #FA5959;
+        background-color: #ffffff;
+        border: 1px solid #FA5959;
     }
 
     #large-selection {
