@@ -150,13 +150,13 @@ p {
 .big-blue-object-2 {
     min-width: 900px;
     max-width: 100%;
-    min-height: 90%;
+    min-height: 100%;
     height: auto;
     background-color: #5267DF;
     border-radius: 7rem;
     position: absolute;
     z-index: -1;
-    top: 3rem;
+    top: 2rem;
     right: 0rem;
 
 }
