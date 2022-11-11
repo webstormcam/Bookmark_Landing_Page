@@ -1,6 +1,11 @@
 let body = document.getElementById('body')
 let ham =document.getElementById('hamburger');
 let upperLogo = document.getElementById('header-logo');
+const bookMark = document.getElementById('bookmark')
+const speedy = document.getElementById('speedy')
+const easy = document.getElementById('easy')
+const selectable = document.getElementsByClassName('selectables')
+
 
 
 
@@ -18,3 +23,40 @@ ham.addEventListener('click',function(){
     }
     console.log('click')
 })
+
+
+bookMark.addEventListener('click',function(){
+for( let select of selectable){
+  select.classList.remove('selectables')
+  console.log(select)
+}
+
+bookMark.classList.add('selectables')
+
+})
+
+speedy.addEventListener('click',function(){
+    for( let select of selectable){
+      select.classList.remove('selectables')
+      console.log(select)
+    }
+    
+    speedy.classList.add('selectables')
+    
+    })
+
+
+
+    easy.addEventListener('click',function(){
+        for( let select of selectable){
+          select.classList.remove('selectables')
+          console.log(select)
+        }
+        
+        easy.classList.add('selectables')
+        
+        })
+
+
+
+
