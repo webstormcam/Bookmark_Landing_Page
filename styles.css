@@ -313,6 +313,20 @@ p {
     border-bottom: 4px solid red;
 }
 
+#middle-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#middle-top-words {
+    text-align: center;
+}
+
+.middle-words {
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width:768px) {
 
     body {
