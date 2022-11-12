@@ -442,6 +442,22 @@ p {
     .clickable-options div:last-child {
         border-bottom: none;
     }
+
+    #middle-top {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #picture-section2 {
+        width: 50%;
+    }
+
+    #middle-top-words {
+        width: 50%;
+        text-align: left;
+        margin-left: 3rem;
+    }
 }
 
 
