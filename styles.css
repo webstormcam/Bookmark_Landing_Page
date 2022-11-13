@@ -474,6 +474,11 @@ p {
     #wrapper {
         overflow: hidden;
     }
+
+
+    #middle-top {
+        max-width: 1110px;
+    }
 }
 
 
@@ -484,10 +489,18 @@ p {
         width: 400px;
     }
 
+    main {
+        padding: 0rem;
+    }
+
     h1 {
         font-size: 48px;
         position: relative;
         top: -1rem;
+    }
+
+    h2 {
+        font-size: 32px;
     }
 
     p {
@@ -495,11 +508,23 @@ p {
         line-height: 28px;
     }
 
+    .clickable-options {
+        margin-bottom: 7rem;
+    }
+
     #hero-image {
         max-width: none;
         width: 579px;
         position: relative;
         left: 5rem;
+    }
+
+    #hero-image2 {
+        max-width: 536px;
+        width: 536px;
+        position: relative;
+        left: -5rem;
+        top: -2rem;
     }
 
     #top-content {
@@ -519,9 +544,18 @@ p {
 
     }
 
+    #middle-top-words {
+        margin-left: 0rem;
+    }
+
     .big-blue-object {
         width: 1000px;
         top: 7rem;
         left: 13rem;
+    }
+
+    .big-blue-object-2 {
+        right: 10rem;
+        width: 3000px;
     }
 }
