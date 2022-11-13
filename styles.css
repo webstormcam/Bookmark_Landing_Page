@@ -91,7 +91,7 @@ p {
 
 #hero-image2 {
     width: 100%;
-    max-width: 500px;
+    max-width: 579px;
 }
 
 #top-buttons {
@@ -465,6 +465,8 @@ p {
     header {
         max-width: 1110px;
     }
+
+
 
     #top-content {
         overflow: visible;
