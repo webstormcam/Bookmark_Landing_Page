@@ -478,6 +478,7 @@ p {
 
     #middle-top {
         max-width: 1110px;
+
     }
 }
 
@@ -523,7 +524,7 @@ p {
         max-width: 536px;
         width: 536px;
         position: relative;
-        left: -5rem;
+        left: 0rem;
         top: -2rem;
     }
 
@@ -546,12 +547,20 @@ p {
 
     #middle-top-words {
         margin-left: 0rem;
+        position: relative;
+        padding-left: 7.5rem;
+        top: -4rem
     }
 
     .big-blue-object {
         width: 1000px;
         top: 7rem;
         left: 13rem;
+    }
+
+    #middle-top {
+        justify-content: space-between;
+        width: 100%;
     }
 
     .big-blue-object-2 {
