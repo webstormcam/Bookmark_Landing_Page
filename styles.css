@@ -331,6 +331,35 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    padding: 2rem 0rem;
+    -webkit-box-shadow: 0px 11px 14px -4px rgba(163, 163, 163, 0.8);
+    box-shadow: 0px 11px 14px -4px rgba(163, 163, 163, 0.8);
+}
+
+.dots {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#middle-middle {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.browser-img {
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width:768px) {
