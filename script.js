@@ -5,7 +5,7 @@ const bookMark = document.getElementById('bookmark')
 const speedy = document.getElementById('speedy')
 const easy = document.getElementById('easy')
 const selectable = document.getElementsByClassName('selectables')
-const dropSection = document.getElementById('drop-downsection')
+const dropQuarter = document.getElementsByClassName('drop')
 
 
 
@@ -58,13 +58,16 @@ speedy.addEventListener('click',function(){
         
         })
 
-
-        dropSection.addEventListener('click',function(e){
-          if(e.target.classList.contains('drop-arrow')){
-            e.target.classList.toggle('flip')
-            
-          }
-        })
+for(let drops of dropQuarter ){
+  drops.addEventListener('click',function(e){
+    if(e.target.classList.contains('drop-arrow')){
+     e.target.classList.toggle('flip')
+     drops.nextElementSibling.classList.toggle('appear')
+      
+    }
+  })
+}
+       
 
 
 

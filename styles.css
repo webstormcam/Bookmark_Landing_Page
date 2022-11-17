@@ -372,8 +372,12 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid grey;
+
     padding-bottom: 1rem;
+}
+
+.drop-section {
+    border-bottom: 1px solid grey;
 }
 
 .flip {
@@ -386,6 +390,10 @@ p {
 
 .hidden-text {
     display: none;
+}
+
+.appear {
+    display: block;
 }
 
 @media screen and (min-width:768px) {
