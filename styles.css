@@ -384,6 +384,10 @@ p {
     margin-top: 2rem;
 }
 
+.hidden-text {
+    display: none;
+}
+
 @media screen and (min-width:768px) {
 
     body {

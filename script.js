@@ -62,6 +62,7 @@ speedy.addEventListener('click',function(){
         dropSection.addEventListener('click',function(e){
           if(e.target.classList.contains('drop-arrow')){
             e.target.classList.toggle('flip')
+            
           }
         })
 
