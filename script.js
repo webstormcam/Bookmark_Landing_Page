@@ -5,6 +5,7 @@ const bookMark = document.getElementById('bookmark')
 const speedy = document.getElementById('speedy')
 const easy = document.getElementById('easy')
 const selectable = document.getElementsByClassName('selectables')
+const dropSection = document.getElementById('drop-downsection')
 
 
 
@@ -55,6 +56,13 @@ speedy.addEventListener('click',function(){
         
         easy.classList.add('selectables')
         
+        })
+
+
+        dropSection.addEventListener('click',function(e){
+          if(e.target.classList.contains('drop-arrow')){
+            e.target.classList.toggle('flip')
+          }
         })
 
 

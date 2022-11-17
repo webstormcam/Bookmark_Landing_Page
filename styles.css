@@ -376,6 +376,10 @@ p {
     padding-bottom: 1rem;
 }
 
+.flip {
+    transform: rotate(3.142rad);
+}
+
 #drop-downsection {
     margin-top: 2rem;
 }
