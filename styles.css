@@ -25,6 +25,7 @@ main {
     margin-top: 7rem;
     padding: 0rem 2rem;
     width: 100%;
+    order: 8;
     overflow: hidden;
 }
 
@@ -365,6 +366,7 @@ p {
 #middle-bottom {
     margin-top: 6rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .drop {
@@ -409,6 +411,52 @@ p {
 .drop-arrow:hover {
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.light-part {
+    background-color: #5267DF;
+    padding: 2rem 2rem;
+    color: #FFFFFF;
+
+}
+
+.white-p {
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    border-radius: 1rem;
+}
+
+.blocked-up {
+    display: block;
+    width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dark-part {
+    background-color: #000000;
+}
+
+
+
 
 @media screen and (min-width:768px) {
 
