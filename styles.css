@@ -441,9 +441,22 @@ footer {
     border-radius: 1rem;
 }
 
+.submission {
+    background-color: #FA5959;
+    color: #ffffff;
+}
+
 .blocked-up {
     display: block;
     width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.email-input {
+    margin-bottom: 1rem;
 }
 
 
@@ -454,7 +467,7 @@ form {
 }
 
 .dark-part {
-    background-color: #000000;
+    background-color: #242A45;
 
     width: 100%;
 }
