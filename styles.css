@@ -472,6 +472,27 @@ form {
     width: 100%;
 }
 
+.dark-part-2 {
+    display: flex;
+    max-width: 150px;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+#footer-links li {
+    margin-bottom: 1rem;
+}
+
+#footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer-logo {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
 
 
 
