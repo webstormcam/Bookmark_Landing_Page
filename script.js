@@ -6,6 +6,7 @@ const speedy = document.getElementById('speedy')
 const easy = document.getElementById('easy')
 const selectable = document.getElementsByClassName('selectables')
 const dropQuarter = document.getElementsByClassName('drop')
+let hero_image2 = document.getElementById('hero-image2')
 
 
 
@@ -31,7 +32,7 @@ for( let select of selectable){
   select.classList.remove('selectables')
   console.log(select)
 }
-
+hero_image2.src="imgs/illustration-features-tab-1.svg"
 bookMark.classList.add('selectables')
 
 })
@@ -41,7 +42,7 @@ speedy.addEventListener('click',function(){
       select.classList.remove('selectables')
       console.log(select)
     }
-    
+    hero_image2.src="imgs/illustration-features-tab-2.svg"
     speedy.classList.add('selectables')
     
     })
@@ -53,7 +54,7 @@ speedy.addEventListener('click',function(){
           select.classList.remove('selectables')
           console.log(select)
         }
-        
+        hero_image2.src="imgs/illustration-features-tab-3.svg"
         easy.classList.add('selectables')
         
         })
